@@ -1,0 +1,154 @@
+{
+  "invoiceData": [
+    {
+      "InvoiceId": 1,
+      "ClientName": "Arpit Katiyar",
+      "ClientType": "in-state",
+      "Date": "21-07-2023",
+      "DueDate": "21-08-2023",
+      "Total": 250,
+      "Balance": 250,
+      "Status": "draft"
+    },
+    {
+      "InvoiceId": 2,
+      "ClientName": "Shaik Rohon",
+      "ClientType": "out-state",
+      "Date": "30-12-2022",
+      "DueDate": "30-01-2023",
+      "Total": 214,
+      "Balance": 214,
+      "Status": "draft"
+    },
+    {
+      "InvoiceId": 3,
+      "ClientName": "Vivek",
+      "ClientType": "out-state",
+      "Date": "15-11-2022",
+      "DueDate": "30-12-2022",
+      "Total": 500,
+      "Balance": 0,
+      "Status": "paid"
+    },
+    {
+      "InvoiceId": 4,
+      "ClientName": "MisbhaTaj",
+      "ClientType": "out-state",
+      "Date": "01-01-2023",
+      "DueDate": "01-02-2023",
+      "Total": 400,
+      "Balance": 200,
+      "Status": "partial payment"
+    },
+    {
+      "InvoiceId": 5,
+      "ClientName": "Pratim Roy",
+      "ClientType": "in-state",
+      "Date": "06-01-2023",
+      "DueDate": "06-03-2023",
+      "Total": 2000,
+      "Balance": 1200,
+      "Status": "partial payment"
+    },
+    {
+      "InvoiceId": 6,
+      "ClientName": "Pratik Kumar",
+      "ClientType": "in-state",
+      "Date": "15-11-2022",
+      "DueDate": "01-02-2023",
+      "Total": 550,
+      "Balance": 0,
+      "Status": "paid"
+    },
+    {
+      "InvoiceId": 7,
+      "ClientName": "Nelson Divyam Lobo",
+      "ClientType": "out-state",
+      "Date": "16-01-2023",
+      "DueDate": "15-08-2023",
+      "Total": 2500,
+      "Balance": 1000,
+      "Status": "partial payment"
+    },
+    {
+      "InvoiceId": 8,
+      "ClientName": "Vaishally Grover",
+      "ClientType": "in-state",
+      "Date": "15-11-2022",
+      "DueDate": "30-01-2023",
+      "Total": 200,
+      "Balance": 200,
+      "Status": "draft"
+    },
+    {
+      "InvoiceId": 9,
+      "ClientName": "Kamran Hassan",
+      "ClientType": "out-state",
+      "Date": "30-12-2022",
+      "DueDate": "15-08-2023",
+      "Total": 15000,
+      "Balance": 15000,
+      "Status": "draft"
+    },
+    {
+      "InvoiceId": 10,
+      "ClientName": "Tushar Gupta",
+      "ClientType": "in-state",
+      "Date": "01-01-2023",
+      "DueDate": "01-03-2023",
+      "Total": 550,
+      "Balance": 550,
+      "Status": "draft"
+    },
+    {
+      "InvoiceId": 11,
+      "ClientName": "Mohit Raj Purohit",
+      "ClientType": "in-state",
+      "Date": "15-11-2022",
+      "DueDate": "30-02-2023",
+      "Total": 200,
+      "Balance": 0,
+      "Status": "paid"
+    },
+    {
+      "InvoiceId": 12,
+      "ClientName": "Kajal Kumari",
+      "ClientType": "out-state",
+      "Date": "30-12-2022",
+      "DueDate": "15-08-2023",
+      "Total": 25000,
+      "Balance": 25000,
+      "Status": "draft"
+    },
+    {
+      "InvoiceId": 13,
+      "ClientName": "Divya Mishra",
+      "ClientType": "in-state",
+      "Date": "01-01-2023",
+      "DueDate": "01-03-2023",
+      "Total": 550,
+      "Balance": 0,
+      "Status": "paid"
+    },
+    {
+      "InvoiceId": 14,
+      "ClientName": "Priya Sharma",
+      "ClientType": "out-state",
+      "Date": "30-12-2022",
+      "DueDate": "01-08-2023",
+      "Total": 25000,
+      "Balance": 12000,
+      "Status": "partial payment"
+    },
+    {
+      "InvoiceId": 15,
+      "ClientName": "Pyush Batra",
+      "ClientType": "in-state",
+      "Date": "01-01-2023",
+      "DueDate": "01-03-2023",
+      "Total": 550,
+      "Balance": 0,
+      "Status": "paid"
+    }
+  ]
+}
