@@ -1,0 +1,39 @@
+.filter-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f5e9eb;
+  padding: 30px 40px;
+  border-radius: 15px;
+}
+.filter-table {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+}
+.filter-table--item {
+  display: flex;
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 4fr 3fr 3fr 2fr 2fr 3fr;
+  padding: 30px 40px;
+}
+.table-header {
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.table {
+  margin: 30px 0;
+  background-color: white;
+  border-radius: 15px;
+}
+@media (max-width: 768px) {
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+}

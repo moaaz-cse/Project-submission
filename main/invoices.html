@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./comman.css">
+    <link rel="stylesheet" href="./table.css">
+  </head>
+  <body>
+    <main class="main">
+      <section class="filter-section">
+        <h1>All Invoices</h1>
+        <div class="filter-table large">
+          <div class="filter-table--item">
+            <label for="BeginDate">Begin Date</label>
+            <input type="date" id="beginDate" class="filter-type begin-date" />
+          </div>
+          <div class="filter-table--item">
+            <label for="EndDate" class="">End Date</label>
+            <input type="date" id="endDate" class="filter-type end-date" />
+          </div>
+          <div class="filter-table--item">
+            <label for="Status" class="">Status</label>
+            <select
+              name="Status"
+              id="Status"
+              class="dropdown-svg filter-type status"
+              onclick="sortByStatus()"
+            >
+              <option value="any">Any</option>
+              <option value="draft">Draft</option>
+              <option value="paid">Paid</option>
+              <option value="partial payment">Partial Payment</option>
+            </select>
+          </div>
+          <div class="filter-table--item">
+            <label for="Client" class="">Client</label>
+            <select
+              name="Client"
+              id="Client"
+              class="dropdown-svg filter-type client-type"
+              onclick="sortByClient()"
+            >
+              <option value="any">Any</option>
+              <option value="in-state">In-state</option>
+              <option value="out-state">Out-state</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <p class="small">
+            *This Data has been shown according to your given informations
+          </p>
+        </div>
+      </section>
+      <section class="grid table-header medium">
+        <div>
+          <span>Invoice</span>
+          <button class="sorting-svg" onclick="sortById()"></button>
+        </div>
+        <div>
+          <span>Client Name</span>
+          <button class="sorting-svg" onclick="sortByName(node=3)"></button>
+        </div>
+        <div>
+          <span>Date</span>
+          <button class="sorting-svg" onclick="sortByDate(node=5)"></button>
+        </div>
+        <div>
+          <span>Due Date</span>
+          <button class="sorting-svg" onclick="sortByDate(node=7)"></button>
+        </div>
+        <div>
+          <span>Total</span>
+          <button class="sorting-svg" onclick="sortByAmount(node=9)"></button>
+        </div>
+        <div>
+          <span>Balance</span>
+          <button class="sorting-svg" onclick="sortByAmount(node=11)"></button>
+        </div>
+        <div>
+          <span>Status</span>
+          <button class="sorting-svg"></button>
+        </div>
+      </section>
+      <section class="table" id="tableData"></section>
+    </main>
+  </body>
+  <script src="./invoices.js"></script>
+</html>
