@@ -1,0 +1,19 @@
+<svg
+  fill="#000000"
+  width="64px"
+  height="64px"
+  viewBox="-2.4 -2.4 28.80 28.80"
+  id="scroll-up-down"
+  data-name="Line Color"
+  xmlns="http://www.w3.org/2000/svg"
+  class="icon line-color"
+  stroke="#000000"
+><g id="SVGRepo_bgCarrier" stroke-width="0" /><g id="SVGRepo_iconCarrier"><path
+      id="secondary"
+      d="M11.31,4.37,9.17,7.5A1,1,0,0,0,9.86,9h4.28a1,1,0,0,0,.69-1.5L12.69,4.37A.82.82,0,0,0,11.31,4.37Z"
+      style="fill: none; stroke: #ffffffffffff2ca9bc; stroke-linecap: round; stroke-linejoin: round; stroke-width:0.72;"
+    /><path
+      id="primary"
+      d="M12.69,19.62l2.14-3.12a1,1,0,0,0-.69-1.5H9.86a1,1,0,0,0-.69,1.5l2.14,3.12A.82.82,0,0,0,12.69,19.62Z"
+      style="fill: none; stroke: #ffffffffffff; stroke-linecap: round; stroke-linejoin: round; stroke-width:0.72;"
+    /></g></svg>

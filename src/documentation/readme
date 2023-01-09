@@ -1,0 +1,20 @@
+##How to start
+    -Open HTML page with live server and you are ready to see the web page.
+    -Also to visit the page click here:
+
+##Component design
+    -Created component using HTML,CSS and Javascript only.
+    -Used Grid and flex approch to make table and table-header responsive.
+    -Page is responsive for tab(768px),laptop(1024px and 1440px),and desktop(1600px) views.
+
+##Reusability 
+    -Consider reusability concept,such as made a common css file that can be used
+    in other project components.
+    -Tried reducing code duplication in js by passing arguments to the function.
+
+##Effciency
+    -Used svg icons for fast rendering dom elements.
+
+##Functionalities Implemented
+    -All filter Implemented except Begin and End Date due to time constraint.
+
